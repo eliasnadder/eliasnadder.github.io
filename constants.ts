@@ -89,6 +89,12 @@ export const PROJECTS_DATA: Project[] = [
 
 // Centralized links configuration for easy editing
 export const LINKS = {
+  // Portfolio Link
+  portfolio: {
+    url: 'https://eliasnadder-portfolio.vercel.app',
+    label: 'View Portfolio'
+  },
+
   // Social Media Links
   social: {
     github: {
@@ -115,6 +121,7 @@ export const LINKS = {
 } as const;
 
 // Export individual links for convenience
+export const PORTFOLIO_LINK = LINKS.portfolio;
 export const SOCIAL_LINKS = LINKS.social;
 export const CONTACT_LINKS = LINKS.contact;
 export const NAVIGATION_LINKS = LINKS.navigation;
