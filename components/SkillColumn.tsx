@@ -66,10 +66,6 @@ export const SkillColumn: React.FC<SkillColumnProps> = ({ group }) => {
                  {skill.name}
                </span>
             </div>
-            
-            <div className="h-1.5 w-12 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
-               <div className="h-full bg-slate-300 dark:bg-slate-600 w-3/4 group-hover:bg-primary-500 transition-all duration-300"></div>
-            </div>
           </div>
         ))}
       </div>
