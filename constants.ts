@@ -5,9 +5,7 @@ export const SKILLS_DATA: SkillGroup[] = [
     category: TechCategory.BACKEND,
     skills: [
       { name: 'Laravel', icon: 'Box' },
-      { name: 'PHP', icon: 'FileCode' },
       { name: 'MySQL', icon: 'Database' },
-      { name: 'Redis', icon: 'Layers' },
       { name: 'REST APIs', icon: 'Globe' }
     ]
   },
@@ -17,8 +15,6 @@ export const SKILLS_DATA: SkillGroup[] = [
       { name: 'React', icon: 'Atom' },
       { name: 'TypeScript', icon: 'Code2' },
       { name: 'Tailwind CSS', icon: 'Wind' },
-      { name: 'Next.js', icon: 'Zap' },
-      { name: 'Redux', icon: 'RefreshCw' }
     ]
   },
   {
@@ -27,8 +23,6 @@ export const SKILLS_DATA: SkillGroup[] = [
       { name: 'Flutter', icon: 'Smartphone' },
       { name: 'Dart', icon: 'Target' },
       { name: 'Bloc Pattern', icon: 'LayoutTemplate' },
-      { name: 'Native Channels', icon: 'ArrowLeftRight' },
-      { name: 'Firebase', icon: 'Flame' }
     ]
   }
 ];
@@ -92,3 +86,35 @@ export const PROJECTS_DATA: Project[] = [
     imagePlaceholder: 'https://images.unsplash.com/photo-1516251193000-18e658485689?q=80&w=2070&auto=format&fit=crop'
   }
 ];
+
+// Centralized links configuration for easy editing
+export const LINKS = {
+  // Social Media Links
+  social: {
+    github: {
+      url: 'https://github.com/eliasnadder',
+      handle: '@eliasnadder'
+    },
+    linkedin: {
+      url: 'https://linkedin.com//in/eliasnadder',
+      handle: '/in/eliasnadder'
+    }
+  },
+
+  // Contact Links
+  contact: {
+    email: 'mailto:hello@example.com'
+  },
+
+  // Internal Navigation Links (anchors)
+  navigation: {
+    projects: '#projects',
+    contact: '#contact',
+    about: '#about'
+  }
+} as const;
+
+// Export individual links for convenience
+export const SOCIAL_LINKS = LINKS.social;
+export const CONTACT_LINKS = LINKS.contact;
+export const NAVIGATION_LINKS = LINKS.navigation;
