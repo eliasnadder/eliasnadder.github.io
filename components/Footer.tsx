@@ -6,7 +6,7 @@ export const Footer: React.FC = () => {
        <div className="text-center text-slate-500 dark:text-slate-500 text-sm">
          &copy; {new Date().getFullYear()} Full Stack Portfolio.
          <span className="mx-2">•</span>
-         Built with React, Tailwind & Framer Motion.
+         Built with ❤️
        </div>
     </footer>
   );
