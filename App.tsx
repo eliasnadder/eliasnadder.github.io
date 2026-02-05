@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { Navigation } from './components/Navigation';
 import { HeroSection } from './components/HeroSection';
 import { BioSection } from './components/BioSection';
@@ -72,6 +73,7 @@ const App: React.FC = () => {
         <Footer />
 
       </main>
+      <Analytics />
     </div>
   );
 };
