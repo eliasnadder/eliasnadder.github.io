@@ -1,75 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Full-Stack Developer Portfolio | React, Flutter & Laravel</title>
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Senior Full-Stack Developer specializing in React, Flutter, and Laravel. Building unified digital ecosystems, scalable web applications, and high-performance mobile apps.">
-    <meta name="keywords" content="Full Stack Developer, React, Flutter, Laravel, TypeScript, Web Development, Mobile App Development, System Architecture, Software Engineer Portfolio">
-    <meta name="author" content="Full Stack Engineer">
-    <meta name="robots" content="index, follow">
+    <title>~/dev — a personal blog for programmers</title>
+    <meta name="description" content="Long-form, code-heavy writing on front-end, back-end, and developer tools by a working software engineer." />
+    <meta name="author" content="Alex" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://portfolio.dev/">
-    <meta property="og:title" content="Full-Stack Developer Portfolio | React, Flutter & Laravel">
-    <meta property="og:description" content="Building unified digital ecosystems. Specialized in connecting mobile, web, and backend technologies for enterprise solutions.">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop">
+    <meta property="og:title" content="~/dev — a personal blog for programmers" />
+    <meta property="og:description" content="Long-form, code-heavy writing on front-end, back-end, and developer tools." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://portfolio.dev/">
-    <meta property="twitter:title" content="Full-Stack Developer Portfolio | React, Flutter & Laravel">
-    <meta property="twitter:description" content="Building unified digital ecosystems. Specialized in connecting mobile, web, and backend technologies.">
-    <meta property="twitter:image" content="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-            },
-            colors: {
-              slate: {
-                850: '#151e2e',
-                900: '#0f172a',
-                950: '#020617',
-              },
-              primary: {
-                400: '#818cf8',
-                500: '#6366f1',
-                600: '#4f46e5',
-              }
-            },
-            animation: {
-              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-            }
-          },
-        },
-      }
-    </script>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "react": "https://esm.sh/react@^19.2.3",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
-</head>
-  <body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-200 transition-colors duration-300">
+  <body>
     <div id="root"></div>
-  <script type="module" src="/index.tsx"></script>
-</body>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
