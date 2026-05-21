@@ -35,21 +35,21 @@ export const experiences: Experience[] = [
   {
     role: "Full-stack Developer",
     company: "Freelance / Personal Projects",
-    period: "2023 — Present",
+    period: "2026 — Present",
     description:
       "Building production-grade web and mobile applications. Projects include a luxury e-commerce storefront (React + Supabase), a Flutter mobile commerce app with BLoC state management, an AI-powered real estate platform with Google Gemini, and a Laravel REST API backend.",
   },
   {
     role: "AI / ML Engineer",
     company: "Personal Research",
-    period: "2024",
+    period: "2026",
     description:
       "Designed and trained an evolutionary game agent (Senet AI) using genetic algorithms over 50 generations with adaptive curriculum learning. Parallelized evaluation via Python's ProcessPoolExecutor and tracked metrics with WandB.",
   },
   {
     role: "Computer Science Student",
     company: "Damascus University",
-    period: "2023 — 2027 (expected)",
+    period: "2022 — 2027 (expected)",
     description:
       "Studying Computer Science with relevant coursework in Frontend, Backend, Databases, Data Structures, and AI Models.",
   },

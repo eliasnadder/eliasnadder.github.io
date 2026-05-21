@@ -1,6 +1,7 @@
 import { bio, techStack, experiences, education, languages } from "@/data/about";
 import { SocialLinks } from "@/components/SocialLinks";
 import { CodeWindow } from "@/components/CodeWindow";
+import { Typewriter } from "@/components/Typewriter";
 import { GraduationCap, Languages, Phone, Mail, MapPin } from "lucide-react";
 
 const STACK_GROUPS: { label: string; items: string[] }[] = [
