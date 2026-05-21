@@ -56,7 +56,7 @@ export default function Home() {
               { prompt: true, text: "cat stack.txt" },
               { text: "React · Laravel · Flutter · Python", className: "text-accent" },
               { prompt: true, text: "ls ~/projects" },
-              { text: "MAISON  GoOrder  CasaLingua  SenetAI", className: "text-foreground" },
+              { text: "MAISON  GoOrder ExpenseTracker CasaLingua StateEcommerceBackend  SenetAI", className: "text-foreground" },
               { prompt: true, text: "echo $STATUS" },
               { text: "open to interesting work 🚀", className: "text-primary" },
             ]}

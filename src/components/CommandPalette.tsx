@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { FileText, Home, FolderGit2, User, Search } from "lucide-react";
+import { FileText, Home, FolderGit2, User, Search, Archive } from "lucide-react";
 import {
   CommandDialog,
   CommandEmpty,
@@ -14,8 +14,9 @@ import { posts } from "@/data/posts";
 
 const PAGES = [
   { label: "Home", to: "/", icon: Home },
-  { label: "Blog", to: "/blog", icon: FileText },
-  { label: "Projects", to: "/projects", icon: FolderGit2 },
+  // { label: "Blog", to: "/blog", icon: FileText },
+  { label: "Projects", to: "/projects", icon: Archive },
+  { label: "Repos", to: "/projects/github", icon: FolderGit2 },
   { label: "About", to: "/about", icon: User },
 ];
 
@@ -70,7 +71,7 @@ export function CommandPalette() {
             })}
           </CommandGroup>
           <CommandSeparator />
-          <CommandGroup heading="Posts">
+          {/* <CommandGroup heading="Posts">
             {posts.map((p) => (
               <CommandItem
                 key={p.slug}
@@ -86,7 +87,7 @@ export function CommandPalette() {
                 </div>
               </CommandItem>
             ))}
-          </CommandGroup>
+          </CommandGroup> */}
         </CommandList>
       </CommandDialog>
     </>

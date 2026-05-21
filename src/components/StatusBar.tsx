@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import {GitCommitHorizontal} from "lucide-react";
 const StatusBar = () => {
-  const [time, setTime] = useState(new Date().toISOString().slice(11, 19));
-
+  const [time, setTime] = useState(new Date().toLocaleTimeString("en-GB", { timeZone: "Asia/Damascus", hour12: false }));
   useEffect(() => {
     const timer = setInterval(() => {
-      setTime(new Date().toISOString().slice(11, 19));
+      setTime(new Date().toLocaleTimeString("en-GB", { timeZone: "Asia/Damascus", hour12: false }));
     }, 1000);
     return () => clearInterval(timer);
   }, []);
@@ -24,7 +23,7 @@ const StatusBar = () => {
         </span>
       </div>
       <div>
-        <span>UTC {time}</span>
+        <span>SYR {time}</span>
       </div>
     </div>
   );
